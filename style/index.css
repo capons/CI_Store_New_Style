@@ -128,3 +128,28 @@ li a {
     border-radius: 0px; !important;
 }
 /* ./header */
+/*carusel*/
+.carousel-inner {
+    background: url("../image/carusel_bg.png");
+    background-position: top;
+
+}
+.car_right_control {
+    background: url("../image/carusel_right_cont.png");
+    height: 51px;
+    width: 51px;
+    display: inline-block;
+    position: absolute;
+    top:40%;
+    right: 20px;
+}
+.car_left_control {
+    background: url("../image/carusel_left_cont.png");
+    height: 51px;
+    width: 51px;
+    display: inline-block;
+    position: absolute;
+    top:40%;
+    left: 20px;
+}
+/* ./carusel*/

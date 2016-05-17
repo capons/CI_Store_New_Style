@@ -17,7 +17,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-4">
-                <p class="no-margin w-title"><span style="color:red">s</span>Example</p>
+                <p class="no-margin w-title"><span style="color:red">b</span>Shop</p>
             </div>
             <div id="basket-wreaper" class="col-lg-8">
                 <ul>
@@ -34,10 +34,10 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div style="margin-right: 0px" class="row">
         <div id="nav-wreaper" class="col-xs-12">
             <div class="container">
-            <nav class="navbar navbar-default no-margin">
+            <nav style="padding-left: 9px;" class="navbar navbar-default no-margin">
                 <div class="container-fluid no-padding">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -61,6 +61,48 @@
         </div>
     </div>
 </header>
+<section>
+    <div style="min-height: 536px" id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+        <!-- Indicators -->
+        <!--
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        -->
+
+        <!-- Wrapper for slides -->
+        <div style="min-height: 536px;height: 536px;" class="carousel-inner" role="listbox">
+            <div style="min-height: 536px;height: 536px;"  class="item active">
+                <!--
+                <img style="min-height: 536px;" src="image/carusel_bg.png" alt="...">
+                -->
+                <div class="carousel-caption">
+                    dsfsdfdsfsdfdsf
+                </div>
+            </div>
+            <div style="min-height: 536px;height: 536px;" class="item">
+                <img src="..." alt="...">
+                <div class="carousel-caption">
+                    1234556456456
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="car_left_control" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="car_right_control" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
 
 
 </body>
