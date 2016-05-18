@@ -61,8 +61,9 @@
         </div>
     </div>
 </header>
+<!--carusel section -->
 <section>
-    <div style="min-height: 536px" id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div id="carousel-example-generic" class="carousel slide sl-head" data-ride="carousel" data-interval="false">
         <!-- Indicators -->
         <!--
         <ol class="carousel-indicators">
@@ -73,24 +74,47 @@
         -->
 
         <!-- Wrapper for slides -->
-        <div style="min-height: 536px;height: 536px;" class="carousel-inner" role="listbox">
-            <div style="min-height: 536px;height: 536px;"  class="item active">
+        <div class="carousel-inner sl-head" role="listbox">
+            <!-- First slide-->
+            <div  class="item wrapper-sl-head active">
                 <!--
                 <img style="min-height: 536px;" src="image/carusel_bg.png" alt="...">
                 -->
                 <div class="carousel-caption">
-                    dsfsdfdsfsdfdsf
+                    <div class="row">
+                        <div class="col-xs-6 carusel-left-wrapper">
+                            <div class="col-xs-12 sl-head-captive-wrapper">
+                                <p class="no-margin header-carisel-slide-t-c">We provide worlds</p>
+                                <p class="no-margin header-carisel-slide-t-c">Top fashion for less</p>
+                                <p class="no-margin header-carisel-slide-t-c">fashionpress.</p>
+                                <p class="header-carusel-slide-t-f">FashionPress the name of hi class fashion web.</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 carusel-right-wrapper">
+                            <div class="col-xs-12">
+                                <img  src="image/carusel-main-img.png" alt="..." class="img-circle image_full_w">
+                                <div class="carusel-price-bl">
+                                    <div class="carusel-product-details">
+                                        <p class="no-margin">Product name</p>
+                                        <p class="no-margin">price $</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!--Second Slide -->
             <div style="min-height: 536px;height: 536px;" class="item">
+                <!--
                 <img src="..." alt="...">
+                -->
                 <div class="carousel-caption">
                     1234556456456
                 </div>
 
             </div>
         </div>
-
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="car_left_control" aria-hidden="true"></span>
@@ -100,6 +124,32 @@
             <span class="car_right_control" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    </div>
+</section>
+<!--search section -->
+<section class="s-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8">
+                <form action="" method="get" class="form-horizontal s-form">
+                    <div class="form-group has-success has-feedback no-margin">
+                        <label  class="control-label col-lg-3 s-label">SEARCH PRODUCT</label>
+                        <div class="col-lg-4">
+                            <div class="input-group">
+                                <input type="text" class="form-control s-m-input" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status">
+                                <span class="input-group-addon no-padding no-border"><button class="no-padding no-border s-b-search"></button></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xs-4 s-control-wrapper">
+                <button class="s-control-b-full">
+                </button>
+                <button class="s-control-b-mult">
+                </button>
+            </div>
+        </div>
     </div>
 </section>
 
