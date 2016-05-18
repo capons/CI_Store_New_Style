@@ -37,7 +37,8 @@ body{
     height: 100%;
     display: inline-block;
     background-color: rgb(238, 238, 238);
-    float: right
+    float: right;
+    width: 273px;
 }
 #basket-wreaper ul li:nth-child(1) {
     height: 100%;
@@ -220,6 +221,7 @@ li a {
 /* .s-content*/ /*search section*/
 .s-content{
     background: rgb(222,234,243);
+    border-bottom: 1px solid white;
 }
 .s-form {
     padding: 5px;
@@ -247,6 +249,7 @@ li a {
 .s-control-wrapper {
     padding: 8px;
     text-align: right;
+    position: relative;
 }
 .s-control-b-full {
     border: none;
@@ -264,13 +267,107 @@ li a {
     height: 20px
 }
 /* ./s-content*/
+/*content*/
+/*product menu*/
+.c-p-menu-title {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     background-color: rgb(223,31,38);
+     border-right: 1px solid rgb(190,190,190);
+ }
+.c-p-menu-title li p {
+    display: block;
+    font-size: 14px;
+    font-family: ROBOTO;
+    color:white;
+    font-weight: 100;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+.c-p-main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(239,239,240);
+    border-right: 1px solid rgb(190,190,190);
+}
+.c-p-main-menu li{
+    width: 100%;
+    border-bottom: 2px solid rgb(227, 227, 227);
+}
+.c-p-main-menu li a {
+    display: block;
+    font-size: 14px;
+    font-family: ROBOTO;
+    color:black;
+    font-weight: 100;
+    padding: 8px 0 8px 23px;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+}
+.c-p-main-menu li:hover{
+    background-color: white;
+}
+.c-p-main-menu li:hover .p-menu-h-line{
+    background-color: rgb(223,31,38) !important;
+}
+.c-p-main-menu li:hover .menu-dot{
+    opacity: 1;
+}
+.menu-dot {
+    background: url("../image/menu-pointer.png")no-repeat center;
+    height: 11px;
+    width: 6px;
+    display: inline-block;
+    margin-right: 10px;
+    position: absolute;
+    background-position: top;
+    top: 14px;
+    left: 8px;
+    opacity: 0.5;
+}
+.happy-clients-t {
+    font-size: 18px;
+    font-family:ROBOTO;
+    color:rgb(223,31,38);
+    text-align: center;
+}
+.client-icon {
+    background: url("../image/client-icon.png")no-repeat;
+    height: 32px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: -2px;
+}
+/* ./product menu*/
+/* ./content*/
 
 
 
 
 
 /*@media*/
+@media (max-width: 1200px) {
+    /*search section*/
+    .s-control-b-full {
+        position: absolute;
+        top: 4px;
+        right: 0px;
+    }
+    .s-control-b-mult {
+        position: absolute;
+        right: 10px;
+        top: 45px;
+    }
+    /* ./search section*/
 
+}
 @media  (max-width: 1235px){
     /*header carusel*/
     .header-carisel-slide-t-c {
