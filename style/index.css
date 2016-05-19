@@ -52,6 +52,10 @@ body{
     height: 100%;
     width: 140px;;
 }
+#basket-wreaper ul li button{
+    font-family: Roboto;
+    font-weight: 100;
+}
 #nav-wreaper {
     background-color: rgb(0,0,0);
 }
@@ -69,6 +73,11 @@ body{
     background: black;
     width: 100%;
 }
+.nav.navbar-nav li a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 100;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -76,11 +85,9 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -268,7 +275,43 @@ li a {
 }
 /* ./s-content*/
 /*content*/
+.content-wrapper {
+    background: rgb(238,238,238);
+}
 /*product menu*/
+.content-menu-t-wrapper {
+    padding-top: 5px;
+}
+.c-review-wrapper {
+    margin-top: 40px;
+}
+.review-body {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+.c-review-text {
+    font-family: Parisienne;
+    font-size: 20px;
+    word-wrap: normal;
+}
+.c-review-arrow {
+    position: absolute;
+    bottom: -16px;
+    height: 18px;
+    width: 22px;
+}
+.c-review-name-body {
+    margin-top: 18px;
+    position: relative;
+}
+.c-review-name-body p{
+    font-family: ROBOTO;
+    font-size: 13px;
+    color: black;
+    padding: 10px 0px 10px 40px;
+}
 .c-p-menu-title {
      list-style-type: none;
      margin: 0;
@@ -301,7 +344,7 @@ li a {
 .c-p-main-menu li a {
     display: block;
     font-size: 14px;
-    font-family: ROBOTO;
+
     color:black;
     font-weight: 100;
     padding: 8px 0 8px 23px;

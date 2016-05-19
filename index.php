@@ -7,6 +7,7 @@
     <title>Main</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="style/index.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -154,12 +155,12 @@
     </div>
 </section>
 <!--content -->
-<section style="background: rgb(238,238,238)">
+<section class="content-wrapper">
     <div class="container">
         <div class="row">
             <!--product menu-->
             <div class="col-sm-3">
-                <div style="position: relative;padding-top: 5px">
+                <div class="content-menu-t-wrapper">
                     <ul class="c-p-menu-title">
                         <li><p class="no-margin">PRODUCTS MENU</p></li>
                     </ul>
@@ -171,17 +172,17 @@
                         <?php } ?>
                     </ul>
                 </div>
-                <div style="margin-top: 40px" class="col-xs-12 no-padding">
+                <div class="col-xs-12 no-padding c-review-wrapper">
                     <p class="happy-clients-t">OUR HAPPY CLIENTS</p>
-                    <div style="margin-top: 20px;background-color: rgb(246,243,243);padding: 20px;position: relative" class="col-xs-12 no-padding">
-                        <p style="font-family: Parisienne;font-size: 20px;word-wrap: normal" class="no-margin">
+                    <div class="col-xs-12 no-padding review-body">
+                        <p class="no-margin c-review-text">
                             I am happy to see that fast web store!!!!!
                         </p>
-                        <img height="18px" width="22px" style="position: absolute;bottom: -16px" src="image/client-say-arrow.png" alt="alt">
+                        <img class="c-review-arrow" src="image/client-say-arrow1.png" alt="alt">
                     </div>
                 </div>
-                <div style="margin-top: 18px;position: relative" class="col-xs-12 no-padding">
-                    <p style="font-family: ROBOTO;font-size: 13px;color: black;padding: 10px 0px 10px 40px;" class="no-margin"><span class="client-icon"></span>Bogdan Dvinin, test company.</p>
+                <div class="col-xs-12 no-padding c-review-name-body">
+                    <p class="no-margin"><span class="client-icon"></span>Bogdan Dvinin, test company.</p>
                 </div>
             </div>
             <div class="col-sm-9">
